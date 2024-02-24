@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>marketing digital</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #007BFF;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: #FFFFFF;
+            transition: color 0.5s;
+        }
+
+        .navbar-brand:hover,
+        .nav-link:hover {
+            color: #CCCCCC;
+        }
+
+        .jumbotron {
+            background: linear-gradient(to right, #007BFF, #24C6DC);
+            color: white;
+            border-radius: 0;
+        }
+
+        .btn-primary {
+            background: linear-gradient(to right, #007BFF, #24C6DC);
+            border: none;
+        }
+
+        .footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .section {
+            padding: 50px 0;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: slideIn 0.5s forwards;
+        }
+
+        .section h2 {
+            margin-bottom: 30px;
+            color: #007BFF;
+        }
+
+        @keyframes slideIn {
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Add more styling */
+        .card {
+            border: none;
+            transition: transform 0.3s;
+            background-color: #f8f9fa; /* Light gray background */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            border-radius: 0.25rem 0.25rem 0 0;
+            max-height: 200px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            color: #333;
+        }
+
+        .card-title {
+            color: #007BFF;
+            font-size: 1.2rem;
+        }
+
+        .card-text {
+            color: #555;
+        }
+
+        .btn-outline-primary {
+            color: #007BFF;
+            border-color: #007BFF;
+        }
+
+        .btn-outline-primary:hover {
+            color: #fff;
+            background-color: #007BFF;
+            border-color: #007BFF;
+        }
+    </style>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var clickButton = document.querySelector('.btn-primary');
+            clickButton.addEventListener('click', function() {
+                window.location.href = 'https://plracademy.team/';
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">marketing digital</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">ganhe dinheiro extremamente rapido</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">fique rico</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron text-center">
+        <h1 class="display-4">aprenda fazer dinheiro direto da sua casa</h1>
+        <p class="lead">curso abaixo</p>
+        <hr class="my-4">
+        <p>$</p>
+        <a class="btn btn-primary btn-lg" href="#contact" role="button">clique</a>
+    </div>
+    <!-- Add a Services section -->
+    <div class="container section" id="services">
+        <h2>dinheiro direto do seu telefone</h2>
+        <p>rapido e facil</p>
+    </div>
+    <!-- Add a Testimonials section -->
+    <div class="container section" id="testimonials">
+        <h2>aprenda a ficar rico jovem</h2>
+        <p>assistindo o curso</p>
+    </div>
+    <footer class="footer">
+        <p>© 2024 [codify]</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
