@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
-    <title>marketing digital</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Digital</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <style>
@@ -42,6 +44,10 @@
             border: none;
         }
 
+        .btn-primary:hover {
+            background: linear-gradient(to right, #007BFF, #24C6DC);
+        }
+
         .footer {
             background-color: #007BFF;
             color: white;
@@ -74,7 +80,7 @@
         .card {
             border: none;
             transition: transform 0.3s;
-            background-color: #f8f9fa;
+            background-color: #f8f9fa; 
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
@@ -114,10 +120,15 @@
     </style>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             var clickButton = document.querySelector('.btn-primary');
-            clickButton.addEventListener('click', function() {
+            clickButton.addEventListener('click', function () {
                 window.location.href = 'https://plracademy.team/';
+            });
+
+            var newButton = document.querySelector('.btn-primary:nth-child(2)');
+            newButton.addEventListener('click', function () {
+                window.location.href = 'https://kiwify.app/JPGh59a?afid=f7Cje3nf';
             });
         });
     </script>
@@ -126,7 +137,8 @@
 <body>
     <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#">marketing digital</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -145,7 +157,8 @@
         <p class="lead">curso abaixo</p>
         <hr class="my-4">
         <p>$</p>
-        <a class="btn btn-primary btn-lg" href="#contact" role="button">clique</a>
+        <a class="btn btn-primary btn-lg" href="#contact" role="button">curso</a>
+        <a class="btn btn-primary btn-lg" href="https://kiwify.app/JPGh59a?afid=f7Cje3nf" role="button">curso 2</a>
     </div>
     <div class="container section" id="services">
         <h2>dinheiro direto do seu telefone</h2>
